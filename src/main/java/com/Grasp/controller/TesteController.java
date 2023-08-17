@@ -16,7 +16,7 @@ public class TesteController {
 	
 	@GetMapping
 	public Graph test() {
-		Graph test = new Graph("testeGraph");
+		Graph test = new Graph("teste Graph");
 		
 		return test;
 	}
